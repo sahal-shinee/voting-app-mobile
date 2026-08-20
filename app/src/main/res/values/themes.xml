@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme.Material3.Dark (bukan DayNight): aplikasi sengaja selalu navy gelap,
+         terlepas dari setting tema sistem (sesuai mockup, ini identitas visual app). -->
+    <style name="Base.Theme.SuaraKita" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorError">@color/color_error</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation.SuaraKita</item>
+    </style>
+
+    <style name="Theme.SuaraKita" parent="Base.Theme.SuaraKita" />
+
+    <!-- Transisi fade halus antar layar, dipasang sekali di tema. Tidak perlu
+         sentuh startActivity()/finish() di tiap Activity satu-satu. -->
+    <style name="WindowAnimation.SuaraKita" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

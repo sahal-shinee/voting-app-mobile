@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">SuaraKita</string>
+
+    <string name="app_tagline">Pemilihan sekolah yang jujur dan transparan</string>
+    <string name="brand_suara">Suara</string>
+    <string name="brand_kita">Kita</string>
+
+    <string name="login_title_regular">Masuk Ke\n</string>
+    <string name="login_title_script">Akun Kamu</string>
+    <string name="login_hint_identifier">NIS / Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_error_empty">NIS/username dan password wajib diisi</string>
+    <string name="login_button">MASUK</string>
+    <string name="login_loading">MEMUAT...</string>
+    <string name="login_error_generic">Login gagal</string>
+    <string name="login_forgot_password">Lupa password? Hubungi admin sekolah kamu.</string>
+
+    <string name="error_no_connection">Tidak bisa terhubung ke server. Cek koneksi dan BASE_URL.</string>
+
+    <string name="change_password_title">Ganti Password</string>
+    <string name="change_password_subtitle">Disarankan mengganti password default agar akun kamu lebih aman.</string>
+    <string name="change_password_hint_old">Password Lama</string>
+    <string name="change_password_hint_new">Password Baru</string>
+    <string name="change_password_hint_confirm">Konfirmasi Password Baru</string>
+    <string name="change_password_button">SIMPAN PASSWORD BARU</string>
+    <string name="change_password_error_empty">Semua kolom wajib diisi</string>
+    <string name="change_password_error_short">Password baru minimal 6 karakter</string>
+    <string name="change_password_error_mismatch">Konfirmasi password baru tidak cocok</string>
+    <string name="change_password_error_generic">Gagal mengubah password</string>
+
+    <string name="banner_change_password_message">Kamu masih pakai password default. Disarankan ganti demi keamanan akun (wajib diganti sebelum bisa memilih).</string>
+    <string name="banner_change_password_message_admin">Kamu masih pakai password default. Sangat disarankan ganti demi keamanan akun admin.</string>
+    <string name="banner_change_password_button">Ganti Sekarang</string>
+
+    <string name="action_logout">KELUAR</string>
+
+    <string name="admin_add_category">+ Kategori Baru</string>
+    <string name="admin_manage_students">Kelola Siswa</string>
+    <string name="admin_toggle_voting_open">Voting Dibuka</string>
+    <string name="admin_toggle_show_results">Tampilkan Hasil Live</string>
+    <string name="admin_edit">Edit</string>
+    <string name="admin_delete">Hapus</string>
+    <string name="admin_add_candidate">+ Tambah Kandidat</string>
+    <string name="admin_view_results">Lihat Hasil Lengkap</string>
+    <string name="admin_no_categories">Belum ada kategori. Tambahkan dulu.</string>
+    <string name="admin_candidates_empty">Belum ada kandidat di kategori ini</string>
+    <string name="admin_candidate_inactive">Dihapus</string>
+    <string name="admin_loading_error">Gagal memuat data</string>
+    <string name="admin_confirm_delete_category_title">Hapus Kategori?</string>
+    <string name="admin_confirm_delete_category_message">Kategori akan dipindahkan ke Riwayat (tidak permanen, bisa dipulihkan kapan saja).</string>
+    <string name="admin_confirm_delete_candidate_title">Hapus Kandidat?</string>
+    <string name="admin_confirm_delete_candidate_message">Kandidat akan disembunyikan dari layar voting, tapi suara yang sudah masuk tetap tersimpan.</string>
+
+    <string name="admin_view_trash">Riwayat</string>
+    <string name="admin_trash_title">Riwayat Kategori</string>
+    <string name="admin_trash_empty">Belum ada kategori di riwayat</string>
+    <string name="admin_trash_restore">Pulihkan</string>
+    <string name="admin_trash_permanent_delete">Hapus Permanen</string>
+    <string name="admin_trash_deleted_at">Dihapus pada: %1$s</string>
+    <string name="admin_confirm_restore_title">Pulihkan Kategori?</string>
+    <string name="admin_confirm_restore_message">Kategori akan aktif kembali dan muncul lagi di tab Kategori.</string>
+    <string name="admin_confirm_permanent_delete_title">Hapus Permanen?</string>
+    <string name="admin_confirm_permanent_delete_message">Tindakan ini TIDAK BISA dibatalkan. Kategori dan kandidatnya akan dihapus selamanya. Hanya bisa dilakukan kalau kategori ini belum pernah ada suara masuk.</string>
+    <string name="admin_restored">Kategori berhasil dipulihkan</string>
+
+    <string name="admin_search_hint">Cari nama atau NIS siswa...</string>
+    <string name="admin_students_edit_title">Edit Siswa</string>
+    <string name="admin_confirm_delete_student_title">Hapus Siswa?</string>
+    <string name="admin_confirm_delete_student_message">Siswa tidak akan bisa login lagi, tapi riwayat suara yang sudah masuk tetap tersimpan.</string>
+    <string name="admin_students_updated">Siswa berhasil diperbarui</string>
+    <string name="admin_students_deleted">Siswa berhasil dihapus</string>
+
+    <string name="admin_admins_add">+ Admin</string>
+    <string name="admin_admins_hint_name">Nama</string>
+    <string name="admin_admins_hint_username">Username</string>
+    <string name="admin_admins_dialog_title">Tambah Admin</string>
+    <string name="admin_admins_created_message">Admin ditambahkan. Password awal: %1$s</string>
+    <string name="admin_admins_error_empty">Nama dan username wajib diisi</string>
+
+    <string name="dashboard_progress_title">Progres Voting</string>
+    <string name="dashboard_progress_label">%1$d dari %2$d kategori sudah kamu pilih</string>
+
+    <string name="admin_category_schedule_title">Jadwal Voting Otomatis (opsional)</string>
+    <string name="admin_category_schedule_helper">Kalau diisi, status buka/tutup voting otomatis ikut jadwal ini, mengambil alih toggle manual selama jadwal aktif.</string>
+    <string name="admin_category_hint_start">Mulai Voting</string>
+    <string name="admin_category_hint_end">Selesai Voting</string>
+    <string name="admin_category_clear_schedule">Hapus jadwal</string>
+    <string name="admin_category_error_schedule_order">Waktu selesai harus setelah waktu mulai</string>
+
+    <string name="admin_activity_log_title">Log Aktivitas Admin</string>
+    <string name="admin_activity_log_empty">Belum ada aktivitas tercatat</string>
+    <string name="admin_activity_log_meta">%1$s • %2$s</string>
+    <string name="admin_view_activity_log">Log Aktivitas</string>
+
+    <string name="admin_results_quorum_label">%1$d dari %2$d siswa sudah memilih (%3$d%%)</string>
+    <string name="admin_results_view_non_voters">Lihat siswa yang belum memilih</string>
+    <string name="admin_non_voters_title">Belum Memilih</string>
+    <string name="admin_non_voters_empty">Semua siswa sudah memilih di kategori ini</string>
+    <string name="admin_results_export">Export CSV</string>
+    <string name="admin_export_success">File hasil tersimpan di folder Download</string>
+    <string name="admin_export_failed">Gagal export hasil</string>
+
+    <string name="voting_subtitle">Pilih salah satu kandidat di bawah ini</string>
+
+    <string name="results_leading">Memimpin</string>
+
+    <string name="admin_chip_voting_open">Voting Dibuka</string>
+    <string name="admin_chip_voting_closed">Voting Ditutup</string>
+    <string name="admin_chip_results_live">Hasil Live</string>
+    <string name="admin_chip_results_hidden">Hasil Disembunyikan</string>
+    <string name="admin_category_schedule_chip">%1$s — %2$s</string>
+    <string name="admin_candidates_title">Kandidat</string>
+    <string name="results_per_candidate_title">Rincian per Kandidat</string>
+    <string name="admin_confirm_yes">Ya, Hapus</string>
+    <string name="admin_confirm_cancel">Batal</string>
+    <string name="admin_toggle_failed">Gagal mengubah status</string>
+
+    <string name="admin_category_form_title_add">Tambah Kategori</string>
+    <string name="admin_category_form_title_edit">Edit Kategori</string>
+    <string name="admin_category_hint_name">Nama Kategori</string>
+    <string name="admin_category_hint_description">Deskripsi (opsional)</string>
+    <string name="admin_category_save">SIMPAN</string>
+    <string name="admin_category_error_name_empty">Nama kategori wajib diisi</string>
+    <string name="admin_category_saved">Kategori berhasil disimpan</string>
+
+    <string name="admin_candidate_form_title_add">Tambah Kandidat</string>
+    <string name="admin_candidate_form_title_edit">Edit Kandidat</string>
+    <string name="admin_candidate_hint_name">Nama Kandidat</string>
+    <string name="admin_candidate_hint_description">Deskripsi</string>
+    <string name="admin_candidate_pick_photo">Pilih Foto</string>
+    <string name="admin_candidate_save">SIMPAN</string>
+    <string name="admin_candidate_error_name_empty">Nama kandidat wajib diisi</string>
+    <string name="admin_candidate_saved">Kandidat berhasil disimpan</string>
+
+    <string name="admin_results_fastest_title">Siswa Tercepat Memilih</string>
+    <string name="admin_results_voted_count">%1$d siswa sudah memilih</string>
+    <string name="admin_results_no_fastest">Belum ada yang memilih</string>
+
+    <string name="admin_students_title">Kelola Siswa</string>
+    <string name="admin_students_add">+ Tambah Siswa</string>
+    <string name="admin_students_import">Import CSV</string>
+    <string name="admin_students_reset">Reset Password</string>
+    <string name="admin_students_empty">Belum ada siswa</string>
+    <string name="admin_students_must_change">Belum ganti password</string>
+    <string name="admin_students_dialog_title">Tambah Siswa</string>
+    <string name="admin_students_hint_name">Nama Siswa</string>
+    <string name="admin_students_hint_nis">NIS</string>
+    <string name="admin_students_dialog_save">Simpan</string>
+    <string name="admin_students_error_empty">Nama dan NIS wajib diisi</string>
+    <string name="admin_students_created_message">Siswa ditambahkan. Password awal: %1$s</string>
+    <string name="admin_students_reset_confirm_title">Reset Password?</string>
+    <string name="admin_students_reset_confirm_message">Password %1$s akan dikembalikan ke default.</string>
+    <string name="admin_students_reset_message">Password di-reset. Password baru: %1$s</string>
+    <string name="admin_students_import_result">Import selesai: %1$d berhasil, %2$d dilewati</string>
+
+    <string name="greeting_hello">Halo, %1$s</string>
+
+    <string name="nav_beranda">Beranda</string>
+    <string name="nav_hasil">Hasil</string>
+    <string name="nav_kategori">Kategori</string>
+    <string name="nav_siswa">Siswa</string>
+    <string name="dashboard_empty">Belum ada kategori voting saat ini</string>
+    <string name="dashboard_error">Gagal memuat kategori</string>
+    <string name="status_live">LIVE</string>
+    <string name="status_closed">DITUTUP</string>
+    <string name="status_voted">Sudah Memilih</string>
+
+    <string name="voting_empty">Belum ada kandidat di kategori ini</string>
+    <string name="voting_error">Gagal memuat kandidat</string>
+    <string name="voting_button">PILIH</string>
+    <string name="voting_error_no_selection">Pilih salah satu kandidat dulu</string>
+    <string name="voting_error_generic">Gagal mengirim suara</string>
+    <string name="voting_confirm_title">Konfirmasi Pilihan</string>
+    <string name="voting_confirm_message">Pilihan tidak bisa diubah setelah dikirim. Lanjutkan?</string>
+    <string name="voting_confirm_yes">Ya, Kirim</string>
+    <string name="voting_confirm_cancel">Batal</string>
+
+    <string name="confirmation_title_regular">Suaramu </string>
+    <string name="confirmation_title_script">Tercatat</string>
+    <string name="confirmation_subtitle">Terima kasih sudah berpartisipasi memilih:</string>
+    <string name="confirmation_button">Kembali ke Beranda</string>
+
+    <string name="results_title_regular">Hasil </string>
+    <string name="results_title_script">Voting</string>
+    <string name="results_total_votes">%1$d suara masuk</string>
+    <string name="results_locked">Hasil voting belum bisa ditampilkan oleh admin saat kategori ini masih berjalan.</string>
+    <string name="results_locked_short">Hasil terkunci</string>
+    <string name="results_leading_candidate">Unggul: %1$s</string>
+    <string name="results_error">Gagal memuat hasil</string>
+    <string name="results_your_pick">Pilihanmu</string>
+    <string name="results_inactive_candidate">Kandidat dihapus</string>
+    <string name="results_vote_count">%1$d suara</string>
+    <string name="results_no_candidates">Belum ada kandidat di kategori ini</string>
+</resources>

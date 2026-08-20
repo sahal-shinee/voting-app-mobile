@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet navy gelap, tetap dipakai terlepas dari setting tema sistem (lihat themes.xml). -->
+    <color name="color_background">#0B132B</color>
+    <color name="color_surface">#1C2541</color>
+    <color name="color_primary">#3A86FF</color>
+    <color name="color_primary_subtle">#1A3A86FF</color>
+    <color name="color_on_gradient_secondary">#CCFFFFFF</color>
+    <color name="color_on_primary">#FFFFFFFF</color>
+    <color name="color_text_primary">#FFFFFFFF</color>
+    <color name="color_text_secondary">#A9B4C2</color>
+    <color name="color_error">#FF6B6B</color>
+    <color name="color_success">#51CF66</color>
+    <color name="color_live">#FF3B5C</color>
+    <color name="color_warning">#FFB84D</color>
+    <color name="color_warning_bg">#3D2F1A</color>
+
+    <!-- Palet untuk segmen donut chart hasil voting (urut dari kandidat #1 ke seterusnya). -->
+    <color name="chart_color_1">#3A86FF</color>
+    <color name="chart_color_2">#2DD4BF</color>
+    <color name="chart_color_3">#FFD93D</color>
+    <color name="chart_color_4">#A78BFA</color>
+    <color name="chart_color_5">#FB7185</color>
+</resources>

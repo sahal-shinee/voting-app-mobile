@@ -1,0 +1,9 @@
+# Folder ini hanya untuk menyimpan foto kandidat. Matikan eksekusi PHP/script
+# sebagai lapisan pertahanan tambahan, seandainya validasi upload suatu saat
+# punya celah -- file apa pun di sini tidak akan pernah dieksekusi sebagai kode.
+
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phar|pl|py|jsp|asp|cgi|sh)$">
+    Require all denied
+</FilesMatch>
+
+php_flag engine off

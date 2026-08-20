@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Blokir akses langsung ke folder internal (hanya index.php yang boleh require file-file ini).
+RewriteRule ^(config|core|handlers)(/|$) - [F,L]
+
+# Blokir akses langsung ke file non-API yang sengaja ditaruh di root (schema, dokumentasi).
+# Tanpa ini, RewriteCond !-f di bawah TIDAK melindungi file yang benar-benar ada di disk --
+# Apache akan menyajikannya mentah-mentah (mis. http://host/schema.sql bisa diakses siapa saja).
+<FilesMatch "\.(sql|md)$">
+    Require all denied
+</FilesMatch>
+
+# File/folder yang benar-benar ada (mis. foto di uploads/) dilayani langsung oleh Apache.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

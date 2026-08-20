@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_admin_kategori"
+        android:icon="@drawable/ic_nav_category"
+        android:title="@string/nav_kategori" />
+    <item
+        android:id="@+id/nav_admin_hasil"
+        android:icon="@drawable/ic_nav_results"
+        android:title="@string/nav_hasil" />
+    <item
+        android:id="@+id/nav_admin_siswa"
+        android:icon="@drawable/ic_nav_people"
+        android:title="@string/nav_siswa" />
+</menu>
